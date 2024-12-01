@@ -19,7 +19,7 @@ touch analysis/main.py
 # Got following Also was getting following error 
 # curl: (35) schannel: next InitializeSecurityContext failed: CRYPT_E_NO_REVOCATION_CHECK 
 # (0x80092012) - The revocation function was unable to check revocation for the certificate.
-# workaround was --ssl-no-revoke option [Didn't really understand the issue through :(]
+# workaround was --ssl-no-revoke option [Didn't really understand the issue through :( ]
 
 curl --ssl-no-revoke -Lo rawdata.zip https://github.com/UofT-DSI/shell/raw/refs/heads/main/02_activities/assignments/rawdata.zip
 unzip rawdata.zip

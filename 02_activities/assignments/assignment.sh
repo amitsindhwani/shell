@@ -44,7 +44,7 @@ ls ./data/raw
 
 # You can create these directories independently in 2 different ways
 # mkdir -p ./data/processed ./data/processed/server_logs ./data/processed/user_logs ./data/processed/event_logs
-# the following one is a simpler way to create multiple sub directories
+# the following one is a simpler way to create multiple sub directories in one go
 mkdir -p ./data/processed/{server_logs,user_logs,event_logs}
 
 # 5. Copy all server log files (files with "server" in the name AND a .log extension) from ./data/raw to ./data/processed/server_logs
